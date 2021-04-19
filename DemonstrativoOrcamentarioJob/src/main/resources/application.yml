@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/springbatch?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: paulistano@13
+    driver-class-name: com.mysql.jdbc.Driver
+    
+app:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/app?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: paulistano@13
+    driver-class-name: com.mysql.jdbc.Driver
+
+  batch:
+    initialize-schema: always
